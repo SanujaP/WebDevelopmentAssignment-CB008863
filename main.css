@@ -1,11 +1,11 @@
 /*mobile first design*/
 body {
-  background-color: rgb(189, 185, 185);
+  background-color: #bdb9b9;
   font-family: "Times New Roman", Times, serif;
 }
 /*Responsive main head and navbar*/
 .mainHeader {
-  background-color: rgb(14, 1, 1);
+  background-color: #0e0101;
   color: whitesmoke;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;

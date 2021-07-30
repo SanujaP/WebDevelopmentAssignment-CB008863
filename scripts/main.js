@@ -91,7 +91,7 @@ function donationMessage() {
     let donateAddress = document.getElementById("address").value;
     let cardNumber = document.getElementById("CCN").value;
     let cvv = document.getElementById("CVV").value;
-    if (cvv == 3)
+    if (cvv.length == 3)
         alert("Thank you " + donateName + " for your donation!");
     else
         alert("Enter Valid Card");
