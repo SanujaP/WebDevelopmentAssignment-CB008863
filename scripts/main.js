@@ -71,9 +71,9 @@ function calculateExtras(annualPasses, foodTokens, extras, orderValue, additiona
 function currentOrder(orderValue, additionalCharge, extras) {
     let totalAmount = orderValue + additionalCharge + extras;
     let finalList =
- `Ticket Amount  : LKR ${orderValue} `+
- `Pass Charge    : LKR ${additionalCharge} `+ 
- `Extra Charges  : LKR ${extras} `+ 
+ `Ticket Amount  : LKR ${orderValue} | `+
+ `Pass Charge    : LKR ${additionalCharge} | `+ 
+ `Extra Charges  : LKR ${extras} | `+ 
  `Total Amount   : LKR ${totalAmount} `;
     document.getElementById("currentOrderShow").innerText = finalList;
     localStorageSet(finalList);
